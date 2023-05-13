@@ -1,0 +1,13 @@
+2. Write a program that prints all the positive even numbers till the number specified.
+Ans:let number = 10;
+
+for (let i = 1; i <= number; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+2
+4
+6
+8
+10
