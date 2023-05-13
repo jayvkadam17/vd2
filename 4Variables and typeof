@@ -26,3 +26,19 @@ console.log(typeof var6);
 // 4. Boolean
 let var7 = true;
 console.log(typeof var7);
+// 5. Undefined
+let var9 = undefined;
+console.log(typeof var9);
+
+// 6. Null
+let var10 = null;
+console.log(typeof var10);
+
+// 7. Symbol
+let var11 = Symbol("PW Skills");
+console.log(typeof var11);
+
+// 8. Objects
+// 1) Array
+let var12 = [1, 2, "PW"];
+console.log(typeof var12);
