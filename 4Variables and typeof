@@ -1,0 +1,28 @@
+// 1. String
+let var1 = "I am happy to join PW Skills FSWD Course";
+console.log(typeof var1);
+
+// 2. Number
+// i) Integer
+let var2 = 9;
+console.log(typeof var2);
+
+// ii) Floating value
+let var3 = 10.2;
+console.log(typeof var3);
+
+// iii) Infinity
+let var4 = Infinity;
+console.log(typeof var4);
+
+// iv) Not a Number
+let var5 = NaN;
+console.log(typeof var5);
+
+// 3. BigInt
+let var6 = 1024n;
+console.log(typeof var6);
+
+// 4. Boolean
+let var7 = true;
+console.log(typeof var7);
