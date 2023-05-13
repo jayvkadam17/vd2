@@ -1,0 +1,29 @@
+let dayOfWeek = "Wednesday";
+
+if (dayOfWeek === "Saturday" || dayOfWeek === "Sunday") {
+  console.log("It's already the weekend!");
+} else if (dayOfWeek === "Friday") {
+  console.log("The weekend starts tomorrow!");
+} else {
+  let daysUntilWeekend;
+
+  switch (dayOfWeek) {
+    case "Monday":
+      daysUntilWeekend = 5;
+      break;
+    case "Tuesday":
+      daysUntilWeekend = 4;
+      break;
+    case "Wednesday":
+      daysUntilWeekend = 3;
+      break;
+    case "Thursday":
+      daysUntilWeekend = 2;
+      break;
+    default:
+      daysUntilWeekend = 1;
+      break;
+  }
+
+  console.log(`There are ${daysUntilWeekend} days until the weekend.`);
+}
